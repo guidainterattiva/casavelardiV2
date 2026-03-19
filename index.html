@@ -468,7 +468,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
           <p class="resto-desc" id="rd1">Cucina tipica siciliana con pizzeria. Da non perdere la <strong>Pizza Siciliana fritta</strong>, specialità della casa.</p>
           <div class="resto-footer">
             <span class="resto-badge" id="rtag1">🚶 13 min a piedi</span>
-            <a href="https://maps.google.com/?q=New+Piccolo+Mondo+Viagrande" target="_blank" class="guide-btn">🧭 Vieni qui</a>
+            <a href="https://maps.google.com/?q=New+Piccolo+Mondo+Viagrande" target="_blank" class="guide-btn">🧭 <span class="go-btn-lbl">Vieni qui</span></a>
           </div>
         </div>
       </div>
@@ -481,7 +481,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
           <p class="resto-desc" id="rd2">Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo. Un'esperienza autentica e sostenibile. Buona anche la pizza.</p>
           <div class="resto-footer">
             <span class="resto-badge" id="rtag2">🚶 10 min a piedi</span>
-            <a href="https://maps.google.com/?q=Giaca+Viagrande" target="_blank" class="guide-btn">🧭 Vieni qui</a>
+            <a href="https://maps.google.com/?q=Giaca+Viagrande" target="_blank" class="guide-btn">🧭 <span class="go-btn-lbl">Vieni qui</span></a>
           </div>
         </div>
       </div>
@@ -494,15 +494,15 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
           <p class="resto-desc" id="rd3">Pizza leggera con impasto di qualità e <strong>ingredienti gourmet e sfiziosi</strong>. Ottima selezione di taglieri.</p>
           <div class="resto-footer">
             <span class="resto-badge" id="rtag3">🚶 6 min a piedi</span>
-            <a href="https://maps.google.com/?q=Viagrande+Bistrot" target="_blank" class="guide-btn">🧭 Vieni qui</a>
+            <a href="https://maps.google.com/?q=Viagrande+Bistrot" target="_blank" class="guide-btn">🧭 <span class="go-btn-lbl">Vieni qui</span></a>
           </div>
         </div>
       </div>
 
       <div class="t-card">
         <div class="t-card-label" id="lbl-bar">☕ Bar &amp; Colazione</div>
-        <div class="svc-row" style="padding-top:0"><span class="svc-ico">🧋</span><div style="flex:1"><div class="svc-title">Caffè Tres Joli</div><div class="svc-desc">Ottime <strong>granite</strong> e pasticceria di qualità. A pranzo offre anche servizio di ristorante. <em>3-4 min a piedi.</em></div></div><a href="https://maps.app.goo.gl/ngDwAmDc7Sqtq9mm9?g_st=ac" target="_blank" class="maps-btn" style="flex-shrink:0;margin-left:10px">🧭</a></div>
-        <div class="svc-row"><span class="svc-ico">🍪</span><div style="flex:1"><div class="svc-title">Gran Caffè Urna</div><div class="svc-desc">Il posto dei <strong>pazientini</strong> — i famosi biscottini segreti di Viagrande. Imperdibile! <em>In centro paese.</em></div></div><a href="https://maps.app.goo.gl/xV9SN67i27bASkmSA?g_st=ac" target="_blank" class="maps-btn" style="flex-shrink:0;margin-left:10px">🧭</a></div>
+        <div class="svc-row" style="padding-top:0"><span class="svc-ico">🧋</span><div style="flex:1"><div class="svc-title" id="bar1-title">Caffè Tres Joli</div><div class="svc-desc" id="bar1-desc">Ottime <strong>granite</strong> e pasticceria di qualità. A pranzo offre anche servizio di ristorante. <em>3-4 min a piedi.</em></div></div><a href="https://maps.app.goo.gl/ngDwAmDc7Sqtq9mm9?g_st=ac" target="_blank" class="maps-btn" style="flex-shrink:0;margin-left:10px">🧭</a></div>
+        <div class="svc-row"><span class="svc-ico">🍪</span><div style="flex:1"><div class="svc-title" id="bar2-title">Gran Caffè Urna</div><div class="svc-desc" id="bar2-desc">Il posto dei <strong>pazientini</strong> — i famosi biscottini segreti di Viagrande. Imperdibile! <em>In centro paese.</em></div></div><a href="https://maps.app.goo.gl/xV9SN67i27bASkmSA?g_st=ac" target="_blank" class="maps-btn" style="flex-shrink:0;margin-left:10px">🧭</a></div>
       </div>
 
       <div class="super-card">
@@ -517,8 +517,8 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
       <div class="super-card">
         <span class="super-ico">🧀</span>
         <div class="super-text">
-          <div class="super-name">Sapori di Sicilia</div>
-          <div class="super-desc">Drogheria con formaggi e salumi tipici · <strong>6 min a piedi</strong></div>
+          <div class="super-name" id="shop2-name">Sapori di Sicilia</div>
+          <div class="super-desc" id="shop2-desc">Drogheria con formaggi e salumi tipici · <strong>6 min a piedi</strong></div>
         </div>
         <a href="https://maps.google.com/?q=Sapori+di+Sicilia+Viagrande" target="_blank" class="maps-btn">🧭</a>
       </div>
@@ -560,7 +560,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 
       <div class="t-card" style="margin-bottom:14px">
         <div class="t-card-label" id="lbl-quadro">🔧 Info Utili</div>
-        <div class="info-row"><span class="ir-label">Quadro elettrico</span><span class="ir-value" style="font-size:12px;text-align:right;max-width:55%">Sala comune, in basso a sinistra del mobile col boiler</span></div>
+        <div class="info-row"><span class="ir-label" id="lbl-fuse">Quadro elettrico</span><span class="ir-value" id="val-fuse" style="font-size:12px;text-align:right;max-width:55%">Sala comune, in basso a sinistra del mobile col boiler</span></div>
         <div class="info-row"><span class="ir-label">Sito web</span><span class="ir-value"><a href="https://www.bbvelardi.it" target="_blank" style="color:var(--purple);text-decoration:none">bbvelardi.it</a></span></div>
       </div>
 
@@ -659,13 +659,13 @@ const T = {
     'rt1':'Cucina Siciliana · Pizzeria · €€','rd1':'Cucina tipica siciliana con pizzeria. Da non perdere la <strong>Pizza Siciliana fritta</strong>, specialità della casa.','rtag1':'🚶 13 min a piedi',
     'rt2':'Slow Food · Ingredienti Locali · €€','rd2':'Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo. Un\'esperienza autentica e sostenibile. Buona anche la pizza.','rtag2':'🚶 10 min a piedi',
     'rt3':'Pizza Gourmet · Taglieri · €€€','rd3':'Pizza leggera con impasto di qualità e <strong>ingredienti gourmet e sfiziosi</strong>. Ottima selezione di taglieri.','rtag3':'🚶 6 min a piedi',
-    'lbl-bar':'☕ Bar & Colazione','lbl-super':'Supermercato Decò','txt-super':'Ben fornito · <strong>5 min a piedi</strong>',
+    'lbl-bar':'☕ Bar & Colazione','lbl-super':'Supermercato Decò','txt-super':'Ben fornito · <strong>5 min a piedi</strong>','bar1-title':'Caffè Tres Joli','bar1-desc':'Ottime <strong>granite</strong> e pasticceria di qualità. A pranzo offre anche servizio di ristorante. <em>3-4 min a piedi.</em>','bar2-title':'Gran Caffè Urna','bar2-desc':'Il posto dei <strong>pazientini</strong> — i famosi biscottini segreti di Viagrande. Imperdibile! <em>In centro paese.</em>','shop2-name':'Sapori di Sicilia','shop2-desc':'Drogheria con formaggi e salumi tipici · <strong>6 min a piedi</strong>',
     'ph-mov-eye':'Trasporti & Emergenze','ph-mov-title':'Muoversi',
     'mv0t':'Aeroporto di Catania','mv0d':'L\'aeroporto più vicino è il <strong>Fontanarossa di Catania</strong>, a circa <strong>25 minuti</strong> in auto.<br><br>🚗 Transfer NCC disponibile — contatta Susanna in anticipo per prenotare.',
     'mv1t':'Auto a Noleggio','mv1d':'L\'auto è il mezzo più comodo per esplorare l\'Etna e la Sicilia orientale. I principali autonoleggi si trovano all\'<strong>aeroporto di Catania</strong>.',
     'mv2t':'Taxi & App','mv2d':'App consigliata: <strong>itTaxi</strong> o <strong>FREE NOW</strong>.<br>Per transfer privati, Susanna può mettere in contatto con il <strong>NCC convenzionato</strong>.',
     'mv3t':'Escursioni Etna','mv3d':'Susanna può organizzare <strong>escursioni guidate</strong> ai crateri sommitali, sentieri, vigne e cantine etnee. Da prenotare in anticipo.',
-    'lbl-quadro':'🔧 Info Utili','lbl-sos':'🆘 Emergenze',
+    'lbl-quadro':'🔧 Info Utili','lbl-fuse':'Quadro elettrico','val-fuse':'Sala comune, in basso a sinistra del mobile col boiler','lbl-sos':'🆘 Emergenze',
     'sos1n':'Pronto Soccorso','sos2n':'Emergenze','sos2d':'Numero unico di emergenza europeo','sos3n':'Vigili del Fuoco','sos3d':'Incendi, allagamenti, emergenze strutturali',
     'cb2-lbl':'Per qualsiasi emergenza','cb2-btn':'📞 Chiama',
     'lbl-checkout':'👋 Check-out',
@@ -718,13 +718,13 @@ const T = {
     'rt1':'Sicilian cuisine · Pizzeria · €€','rd1':'Traditional Sicilian cuisine. Don\'t miss the <strong>fried Sicilian Pizza</strong>, the house speciality.','rtag1':'🚶 13 min walk',
     'rt2':'Slow Food · Local Ingredients · €€','rd2':'Slow food restaurant using <strong>km 0</strong> ingredients from the Etna territory. An authentic and sustainable experience. Pizza is also excellent.','rtag2':'🚶 10 min walk',
     'rt3':'Gourmet Pizza · Charcuterie · €€€','rd3':'Light pizza with quality dough and <strong>gourmet toppings</strong>. Excellent charcuterie boards.','rtag3':'🚶 6 min walk',
-    'lbl-bar':'☕ Bar & Breakfast','lbl-super':'Decò Supermarket','txt-super':'Well-stocked · <strong>5 min walk</strong>',
+    'lbl-bar':'☕ Bar & Breakfast','lbl-super':'Decò Supermarket','txt-super':'Well-stocked · <strong>5 min walk</strong>','bar1-title':'Caffè Tres Joli','bar1-desc':'Excellent <strong>granite</strong> (Sicilian slushies) and quality pastries. Also serves lunch. <em>3-4 min walk.</em>','bar2-title':'Gran Caffè Urna','bar2-desc':'Home of the <strong>pazientini</strong> — Viagrande\'s famous secret biscuits. A must! <em>In the village centre.</em>','shop2-name':'Sapori di Sicilia','shop2-desc':'Deli with local cheeses and cured meats · <strong>6 min walk</strong>',
     'ph-mov-eye':'Transport & Emergencies','ph-mov-title':'Getting around',
     'mv0t':'Catania Airport','mv0d':'The nearest airport is <strong>Catania Fontanarossa</strong>, about <strong>25 minutes</strong> by car.<br><br>🚗 Private NCC transfer available — contact Susanna in advance to book.',
     'mv1t':'Car Rental','mv1d':'A car is the most convenient way to explore Etna and eastern Sicily. The main car hire companies are at <strong>Catania airport</strong>.',
     'mv2t':'Taxi & Apps','mv2d':'Recommended apps: <strong>itTaxi</strong> or <strong>FREE NOW</strong>.<br>For private transfers, Susanna can put you in touch with the <strong>affiliated NCC driver</strong>.',
     'mv3t':'Etna Excursions','mv3d':'Susanna can arrange <strong>guided excursions</strong> to the summit craters, nature trails, vineyards and Etna wineries. Book in advance.',
-    'lbl-quadro':'🔧 Useful Info','lbl-sos':'🆘 Emergencies',
+    'lbl-quadro':'🔧 Useful Info','lbl-fuse':'Fuse box','val-fuse':'Common room, bottom left of the cabinet with the kettle','lbl-sos':'🆘 Emergencies',
     'sos1n':'Emergency Room','sos2n':'Emergency Services','sos2d':'European single emergency number','sos3n':'Fire Brigade','sos3d':'Fires, flooding, structural emergencies',
     'cb2-lbl':'For any emergency','cb2-btn':'📞 Call',
     'lbl-checkout':'👋 Check-out',
