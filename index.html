@@ -25,7 +25,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 @keyframes fadeUp{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
 
 /* LANDING */
-#landing{background:linear-gradient(175deg,#4a2070 0%,#3a1858 30%,var(--bg) 100%);padding:0 0 40px;overflow-y:auto}
+#landing{background:#102520;padding:0 0 40px;overflow-y:auto}
 .landing-hero{text-align:center;padding:52px 22px 28px;background:transparent;position:relative;overflow:hidden}
 .landing-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 20%,rgba(170,103,197,.22),transparent 55%);pointer-events:none}
 .landing-logo{width:120px;height:120px;object-fit:contain;margin-bottom:16px;position:relative;z-index:1;filter:drop-shadow(0 4px 18px rgba(170,103,197,.35))}
@@ -34,7 +34,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 .landing-sub{font-size:11px;color:var(--text-dim);letter-spacing:1.2px;position:relative;z-index:1;margin-bottom:6px}
 .landing-addr{font-size:11px;color:rgba(193,140,212,.7);letter-spacing:.5px;position:relative;z-index:1}
 
-.apt-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:22px;margin:20px 18px 0;position:relative;overflow:hidden}
+.apt-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:22px;padding:22px;margin:20px 18px 0;position:relative;overflow:hidden}
 .apt-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 90% 10%,rgba(170,103,197,.13),transparent 55%);pointer-events:none}
 .apt-card-label{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--purple);margin-bottom:10px;position:relative;z-index:1}
 .lang-row{display:grid;grid-template-columns:1fr 1fr;gap:9px;position:relative;z-index:1}
@@ -125,9 +125,9 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 .site-btn:active{opacity:.75}
 
 /* WiFi */
-.wifi-card{background:linear-gradient(135deg,var(--purple-dim),#0d1e1c);border:1px solid rgba(170,103,197,.3);border-radius:var(--radius);padding:22px;margin-bottom:10px;text-align:center}
+.wifi-card{background:#102520;border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:22px;margin-bottom:10px;text-align:center}
 .wifi-ico{font-size:34px;margin-bottom:10px}
-.wifi-net{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--lavender);margin-bottom:3px}
+.wifi-net{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.7);margin-bottom:3px}
 .wifi-name{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:6px}
 .wifi-pwd-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:3px}
 .wifi-pwd-val{font-family:'Playfair Display',serif;font-size:20px;color:white;letter-spacing:1px;margin-bottom:12px}
@@ -159,8 +159,8 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 .maps-btn:active{opacity:.75}
 
 /* Secret tip */
-.secret-card{background:linear-gradient(135deg,var(--purple-dim),#0d1e1c);border:1px solid rgba(170,103,197,.3);border-radius:var(--radius);padding:16px;margin-bottom:10px}
-.secret-eyebrow{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--lavender);margin-bottom:6px}
+.secret-card{background:#102520;border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:16px;margin-bottom:10px}
+.secret-eyebrow{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.7);margin-bottom:6px}
 .secret-title{font-family:'Playfair Display',serif;font-size:17px;margin-bottom:6px}
 .secret-desc{font-size:12px;line-height:1.65;color:rgba(255,255,255,.65)}
 
@@ -190,10 +190,10 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 .move-desc{font-size:13px;line-height:1.65;color:rgba(28,16,40,.6)}
 
 /* Contact bar */
-.contact-bar{background:linear-gradient(135deg,var(--purple-dim),#0d1e1c);border:1px solid rgba(170,103,197,.28);border-radius:var(--radius);padding:16px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
+.contact-bar{background:#102520;border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:16px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
 .contact-bar::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 85%,rgba(170,103,197,.18),transparent 55%);pointer-events:none}
 .cb-text{position:relative;z-index:1}
-.cb-lbl{font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.38);margin-bottom:2px}
+.cb-lbl{font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.65);margin-bottom:2px}
 .cb-name{font-family:'Playfair Display',serif;font-size:17px;color:#FFFFFF}
 .cb-btn{position:relative;z-index:1;background:var(--lavender);border:none;border-radius:100px;color:white;font-family:'Jost',sans-serif;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;padding:9px 14px;cursor:pointer;font-weight:500;text-decoration:none;display:flex;align-items:center;gap:5px;transition:opacity .2s}
 .cb-btn:active{opacity:.75}
@@ -224,7 +224,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 .eco-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(16,37,32,.12);border:1px solid rgba(16,37,32,.2);border-radius:100px;padding:5px 12px;font-size:11px;color:#2d6b50;font-weight:500;margin-top:8px}
 
 /* Bye */
-.bye-card{background:linear-gradient(135deg,var(--purple-dim),#0d1e1c);border:1px solid rgba(170,103,197,.25);border-radius:var(--radius);padding:22px;text-align:center;margin-bottom:10px}
+.bye-card{background:#102520;border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:22px;text-align:center;margin-bottom:10px}
 .bye-title{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px}
 .bye-text{font-size:13px;color:rgba(255,255,255,.65);line-height:1.7}
 </style>
@@ -377,30 +377,30 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
         <div class="t-card-label" id="lbl-rules">Regole della Casa</div>
         <div class="rule-item"><div class="rule-n">1</div><div><div class="rule-title" id="r1t">Silenzio Notturno</div><div class="rule-desc" id="r1d">Dalle 23:00 alle 7:00 si prega di mantenere un livello di rumore contenuto per rispetto dei vicini.</div></div></div>
         <div class="rule-item"><div class="rule-n">2</div><div><div class="rule-title" id="r2t">Niente Fumo</div><div class="rule-desc" id="r2d">Il fumo è vietato ovunque all'interno della struttura.</div></div></div>
-        <div class="rule-item"><div class="rule-n">3</div><div><div class="rule-title" id="r3t">Animali Domestici</div><div class="rule-desc" id="r3d">Non ammessi. Per qualsiasi necessità, contattate Susanna prima della prenotazione.</div></div></div>
+        <div class="rule-item"><div class="rule-n">3</div><div><div class="rule-title" id="r3t">Animali Domestici</div><div class="rule-desc" id="r3d">Non ammessi.</div></div></div>
         <div class="rule-item"><div class="rule-n">4</div><div><div class="rule-title" id="r4t">Ospiti Esterni</div><div class="rule-desc" id="r4d">I visitatori esterni sono benvenuti di giorno, ma non possono pernottare.</div></div></div>
         <div class="rule-item"><div class="rule-n">5</div><div><div class="rule-title" id="r5t">Raccolta Differenziata</div><div class="rule-desc" id="r5d">In cucina troverete tutti i contenitori con le istruzioni per la raccolta differenziata. Vi chiediamo di rispettarle — per noi è molto importante!<br><br>Non sarà necessario svuotare i contenitori: ci pensiamo noi nei giorni stabiliti.</div></div></div>
-        <div class="rule-item"><div class="rule-n">6</div><div><div class="rule-title" id="r6t">Casa EcoBnB 🌿</div><div class="rule-desc" id="r6d">Casa Velardi è una struttura EcoBnB. Vi chiediamo di collaborare per ridurre i consumi di acqua, energia e materiali per il bene del nostro pianeta.</div></div></div>
+        <div class="rule-item"><div class="rule-n">6</div><div><div class="rule-title" id="r6t">Casa EcoBnB 🌿</div><div class="rule-desc" id="r6d">Casa Velardi è una struttura EcoBnB. Vi chiediamo di collaborare per ridurre i consumi di acqua, energia e materiali per il bene del nostro pianeta.<br>I climatizzatori vanno spenti la notte tra le ore 24:00 e le 6:00.</div></div></div>
       </div>
 
       <div class="space-card">
         <div class="sc-header"><span class="sc-ico">🛌</span><div class="sc-name" id="sp1-name">Camere da Letto</div></div>
         <p class="sc-desc" id="sp1-desc">La struttura dispone di <strong>3 camere da letto</strong>. Per una descrizione dettagliata di ogni camera visita il sito web.</p>
         <a href="https://www.bbvelardi.it" target="_blank" class="site-btn">🌐 <span id="sp1-site-txt">Scopri le camere su bbvelardi.it</span></a>
-        <div class="tags" style="margin-top:10px"><span class="tag" id="tag-ac">Aria condizionata</span><span class="tag" id="tag-heat">Riscaldamento</span><span class="tag" id="tag-tv">Smart TV</span><span class="tag" id="tag-safe">Cassaforte</span></div>
+        <div class="tags" style="margin-top:10px"><span class="tag" id="tag-ac">Aria condizionata</span><span class="tag" id="tag-heat">Riscaldamento</span><span class="tag" id="tag-tv">Smart TV</span><span class="tag" id="tag-hairdryer">Asciugacapelli</span><span class="tag" id="tag-iron">Ferro da stiro</span></div>
       </div>
 
       <div class="space-card">
         <div class="sc-header"><span class="sc-ico">🍳</span><div class="sc-name" id="sp2-name">Cucina</div></div>
         <p class="sc-desc" id="sp2-desc">Completamente attrezzata con <strong>macchinetta per il caffè</strong>, boiler, tostapane, piastra a induzione e microonde. <strong>Cialde per il caffè e bustine per tè e tisane incluse</strong>. Trovate tovaglie, tovagliette e istruzioni dettagliate per l'uso.<br><br>L'acqua del rubinetto è potabile, ma sono disponibili anche <strong>bottiglie con acqua microfiltrata</strong>.</p>
-        <div class="tags"><span class="tag">Piastra a induzione</span><span class="tag" id="tag-coffee">Macchinetta caffè</span><span class="tag">Microonde</span><span class="tag">Lavastoviglie</span><span class="tag">Lavatrice</span></div>
+        <div class="tags"><span class="tag" id="tag-induction">Piastra a induzione</span><span class="tag" id="tag-coffee">Macchinetta caffè</span><span class="tag" id="tag-microwave">Microonde</span></div>
       </div>
 
       <div class="space-card">
         <div class="sc-header"><span class="sc-ico">🌿</span><div class="sc-name" id="sp3-name">Esterno</div></div>
         <p class="sc-desc" id="sp3-desc">La struttura dispone di <strong>balcone/terrazzo e giardino</strong>. Per i dettagli visita il sito web.</p>
         <a href="https://www.bbvelardi.it" target="_blank" class="site-btn">🌐 <span>Visita bbvelardi.it</span></a>
-        <div class="tags" style="margin-top:10px"><span class="tag">Balcone/Terrazzo</span><span class="tag">Giardino</span><span class="tag" id="tag-hairdryer">Asciugacapelli</span><span class="tag" id="tag-iron">Ferro da stiro</span></div>
+        <div class="tags" style="margin-top:10px"><span class="tag" id="tag-balcony">Balcone/Terrazzo</span><span class="tag" id="tag-garden">Giardino</span></div>
       </div>
 
       <div class="t-card">
@@ -478,7 +478,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
         <div class="resto-body">
           <div class="resto-name">Giaca</div>
           <div class="resto-type" id="rt2">Slow Food · Ingredienti Locali · €€</div>
-          <p class="resto-desc" id="rd2">Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo. Un'esperienza autentica e sostenibile.</p>
+          <p class="resto-desc" id="rd2">Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo. Un'esperienza autentica e sostenibile. Buona anche la pizza.</p>
           <div class="resto-footer">
             <span class="resto-badge" id="rtag2">🚶 10 min a piedi</span>
             <a href="https://maps.google.com/?q=Giaca+Viagrande" target="_blank" class="guide-btn">🧭 Vieni qui</a>
@@ -596,7 +596,7 @@ html,body{height:100%;font-family:'Jost',sans-serif;background:var(--bg);color:v
 
       <div class="bye-card">
         <div class="bye-title" id="bye-title">Grazie per avere scelto Casa Velardi!</div>
-        <div class="bye-text" id="bye-text">Speriamo che il vostro soggiorno sia stato indimenticabile.<br>Ci farebbe molto piacere ricevere una recensione su <strong>Airbnb</strong>.<br><br>— Susanna ❤️</div>
+        <div class="bye-text" id="bye-text">Speriamo che il vostro soggiorno sia stato indimenticabile.<br>Ci farebbe molto piacere ricevere una recensione.<br><br>— Susanna ❤️</div>
       </div>
 
     </div>
@@ -636,14 +636,14 @@ const T = {
     'lbl-rules':'Regole della Casa',
     'r1t':'Silenzio Notturno','r1d':'Dalle 23:00 alle 7:00 si prega di mantenere un livello di rumore contenuto per rispetto dei vicini.',
     'r2t':'Niente Fumo','r2d':'Il fumo è vietato ovunque all\'interno della struttura.',
-    'r3t':'Animali Domestici','r3d':'Non ammessi. Per qualsiasi necessità, contattate Susanna prima della prenotazione.',
+    'r3t':'Animali Domestici','r3d':'Non ammessi.',
     'r4t':'Ospiti Esterni','r4d':'I visitatori esterni sono benvenuti di giorno, ma non possono pernottare.',
     'r5t':'Raccolta Differenziata','r5d':'In cucina troverete tutti i contenitori con le istruzioni. Vi chiediamo di rispettarle — per noi è molto importante! Non sarà necessario svuotarli: ci pensiamo noi.',
-    'r6t':'Casa EcoBnB 🌿','r6d':'Casa Velardi è una struttura EcoBnB. Vi chiediamo di collaborare per ridurre i consumi di acqua, energia e materiali.',
+    'r6t':'Casa EcoBnB 🌿','r6d':'Casa Velardi è una struttura EcoBnB. Vi chiediamo di collaborare per ridurre i consumi di acqua, energia e materiali per il bene del nostro pianeta.<br>I climatizzatori vanno spenti la notte tra le ore 24:00 e le 6:00.',
     'sp1-name':'Camere da Letto','sp1-desc':'La struttura dispone di <strong>3 camere da letto</strong>. Per una descrizione dettagliata visita il sito web.','sp1-site-txt':'Scopri le camere su bbvelardi.it',
     'sp2-name':'Cucina','sp2-desc':'Completamente attrezzata con <strong>macchinetta per il caffè</strong>, boiler, tostapane, piastra a induzione e microonde. <strong>Cialde per il caffè e bustine per tè e tisane incluse</strong>. Trovate tovaglie, tovagliette e istruzioni dettagliate.<br><br>L\'acqua del rubinetto è potabile, ma sono disponibili anche <strong>bottiglie con acqua microfiltrata</strong>.',
     'sp3-name':'Esterno','sp3-desc':'La struttura dispone di <strong>balcone/terrazzo e giardino</strong>. Per i dettagli visita il sito web.',
-    'tag-ac':'Aria condizionata','tag-heat':'Riscaldamento','tag-tv':'Smart TV','tag-safe':'Cassaforte','tag-coffee':'Macchinetta caffè','tag-hairdryer':'Asciugacapelli','tag-iron':'Ferro da stiro',
+    'tag-ac':'Aria condizionata','tag-heat':'Riscaldamento','tag-tv':'Smart TV','tag-coffee':'Macchinetta caffè','tag-hairdryer':'Asciugacapelli','tag-iron':'Ferro da stiro','tag-induction':'Piastra a induzione','tag-microwave':'Microonde','tag-balcony':'Balcone/Terrazzo','tag-garden':'Giardino',
     'lbl-extras':'Servizi Extra',
     'svc1t':'Pulizia Inclusa','svc1d':'Pulizia della stanza ogni <strong>2 giorni inclusa nel prezzo</strong>. Aggiuntiva su richiesta a <strong>€10/giorno</strong>.',
     'svc2t':'Transfer Aeroporto','svc2d':'Disponibile tramite <strong>NCC convenzionato</strong>. Da prenotare in anticipo tramite Susanna.',
@@ -657,7 +657,7 @@ const T = {
     'secret-eye':'✦ Segreto locale','secret-title':'Gran Caffè Urna — i Pazientini','secret-desc':'Se andate per bar e caffè in paese, visitate il Gran Caffè Urna e chiedete dei <strong>«pazientini»</strong>: piccoli biscottini deliziosi la cui ricetta, tramandata dai pasticceri di Viagrande, è segreta.',
     'ph-man-eye':'Consigli di Susanna','ph-man-title':'Mangiare',
     'rt1':'Cucina Siciliana · Pizzeria · €€','rd1':'Cucina tipica siciliana con pizzeria. Da non perdere la <strong>Pizza Siciliana fritta</strong>, specialità della casa.','rtag1':'🚶 13 min a piedi',
-    'rt2':'Slow Food · Ingredienti Locali · €€','rd2':'Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo.','rtag2':'🚶 10 min a piedi',
+    'rt2':'Slow Food · Ingredienti Locali · €€','rd2':'Cucina slow food con ingredienti a <strong>km 0</strong> dal territorio etneo. Un\'esperienza autentica e sostenibile. Buona anche la pizza.','rtag2':'🚶 10 min a piedi',
     'rt3':'Pizza Gourmet · Taglieri · €€€','rd3':'Pizza leggera con impasto di qualità e <strong>ingredienti gourmet e sfiziosi</strong>. Ottima selezione di taglieri.','rtag3':'🚶 6 min a piedi',
     'lbl-bar':'☕ Bar & Colazione','lbl-super':'Supermercato Decò','txt-super':'Ben fornito · <strong>5 min a piedi</strong>',
     'ph-mov-eye':'Trasporti & Emergenze','ph-mov-title':'Muoversi',
@@ -673,7 +673,7 @@ const T = {
     'st2t':'Lascia le chiavi','st2d':'Se non posso essere presente, lascia le chiavi in camera.',
     'st3t':'Cucina pulita','st3d':'Vi chiediamo di lasciare la cucina in ordine prima della partenza.',
     'st4t':'Luci & Climatizzatori','st4d':'Spegnete luci e climatizzatori prima di uscire. Grazie!',
-    'bye-title':'Grazie per avere scelto Casa Velardi!','bye-text':'Speriamo che il vostro soggiorno sia stato indimenticabile.<br>Ci farebbe molto piacere ricevere una recensione su <strong>Airbnb</strong>.<br><br>— Susanna ❤️',
+    'bye-title':'Grazie per avere scelto Casa Velardi!','bye-text':'Speriamo che il vostro soggiorno sia stato indimenticabile.<br>Ci farebbe molto piacere ricevere una recensione.<br><br>— Susanna ❤️',
     'nav-lbl-home':'Home','nav-lbl-sog':'Soggiorno','nav-lbl-luo':'Luoghi','nav-lbl-man':'Mangiare','nav-lbl-mov':'Muoversi',
     's-checkin-lbl':'Check-in','s-checkout-lbl':'Check-out','s-maps-lbl':'Naviga'
   },
@@ -695,14 +695,14 @@ const T = {
     'lbl-rules':'House Rules',
     'r1t':'Quiet Hours','r1d':'From 11:00 PM to 7:00 AM, please keep noise levels low out of respect for neighbours.',
     'r2t':'No Smoking','r2d':'Smoking is strictly prohibited everywhere inside the property.',
-    'r3t':'Pets','r3d':'Not allowed. For any exceptions, please contact Susanna before booking.',
+    'r3t':'Pets','r3d':'Not allowed.',
     'r4t':'External Guests','r4d':'External visitors are welcome during the day, but cannot stay overnight.',
     'r5t':'Waste Sorting','r5d':'In the kitchen you\'ll find labelled containers with sorting instructions. Please follow them — it\'s very important to us! You won\'t need to empty them: we take care of it.',
-    'r6t':'EcoBnB Property 🌿','r6d':'Casa Velardi is an EcoBnB. We ask for your help in reducing water, energy and material consumption for our planet.',
+    'r6t':'EcoBnB Property 🌿','r6d':'Casa Velardi is an EcoBnB. We ask for your help in reducing water, energy and material consumption for our planet.<br>Air conditioning must be switched off at night between 00:00 and 06:00.',
     'sp1-name':'Bedrooms','sp1-desc':'The property has <strong>3 bedrooms</strong>. For a detailed description of each room, visit the website.','sp1-site-txt':'Discover the rooms at bbvelardi.it',
     'sp2-name':'Kitchen','sp2-desc':'Fully equipped with <strong>coffee machine</strong>, kettle, toaster, induction hob and microwave. <strong>Coffee pods and tea bags included</strong>. Tablecloths and place mats provided.<br><br>Tap water is drinkable, but <strong>microfiltered water bottles</strong> are also available.',
     'sp3-name':'Outdoor','sp3-desc':'The property has a <strong>balcony/terrace and a garden</strong>. For more details, visit the website.',
-    'tag-ac':'Air conditioning','tag-heat':'Heating','tag-tv':'Smart TV','tag-safe':'Safe','tag-coffee':'Coffee machine','tag-hairdryer':'Hairdryer','tag-iron':'Iron',
+    'tag-ac':'Air conditioning','tag-heat':'Heating','tag-tv':'Smart TV','tag-coffee':'Coffee machine','tag-hairdryer':'Hairdryer','tag-iron':'Iron','tag-induction':'Induction hob','tag-microwave':'Microwave','tag-balcony':'Balcony/Terrace','tag-garden':'Garden',
     'lbl-extras':'Extra Services',
     'svc1t':'Cleaning Included','svc1d':'Room cleaning every <strong>2 days included in the price</strong>. Extra cleaning on request at <strong>€10/day</strong>.',
     'svc2t':'Airport Transfer','svc2d':'Available via <strong>private NCC driver</strong>. Book in advance through Susanna.',
@@ -716,7 +716,7 @@ const T = {
     'secret-eye':'✦ Local secret','secret-title':'Gran Caffè Urna — the Pazientini','secret-desc':'If you visit the village for a coffee, go to Gran Caffè Urna and ask for the <strong>«pazientini»</strong>: delicious little biscuits whose recipe, passed down by Viagrande\'s pastry makers, is a closely guarded secret.',
     'ph-man-eye':'Susanna\'s picks','ph-man-title':'Where to eat',
     'rt1':'Sicilian cuisine · Pizzeria · €€','rd1':'Traditional Sicilian cuisine. Don\'t miss the <strong>fried Sicilian Pizza</strong>, the house speciality.','rtag1':'🚶 13 min walk',
-    'rt2':'Slow Food · Local Ingredients · €€','rd2':'Slow food restaurant using <strong>km 0</strong> ingredients from the Etna territory.','rtag2':'🚶 10 min walk',
+    'rt2':'Slow Food · Local Ingredients · €€','rd2':'Slow food restaurant using <strong>km 0</strong> ingredients from the Etna territory. An authentic and sustainable experience. Pizza is also excellent.','rtag2':'🚶 10 min walk',
     'rt3':'Gourmet Pizza · Charcuterie · €€€','rd3':'Light pizza with quality dough and <strong>gourmet toppings</strong>. Excellent charcuterie boards.','rtag3':'🚶 6 min walk',
     'lbl-bar':'☕ Bar & Breakfast','lbl-super':'Decò Supermarket','txt-super':'Well-stocked · <strong>5 min walk</strong>',
     'ph-mov-eye':'Transport & Emergencies','ph-mov-title':'Getting around',
@@ -732,7 +732,7 @@ const T = {
     'st2t':'Leave the keys','st2d':'If I can\'t be present, please leave the keys in the room.',
     'st3t':'Clean kitchen','st3d':'Please leave the kitchen tidy before your departure.',
     'st4t':'Lights & Air conditioning','st4d':'Turn off all lights and air conditioning before leaving. Thank you!',
-    'bye-title':'Thank you for choosing Casa Velardi!','bye-text':'We hope your stay has been unforgettable.<br>We\'d love to receive a review on <strong>Airbnb</strong>.<br><br>— Susanna ❤️',
+    'bye-title':'Thank you for choosing Casa Velardi!','bye-text':'We hope your stay has been unforgettable.<br>We\'d love to receive a review.<br><br>— Susanna ❤️',
     'nav-lbl-home':'Home','nav-lbl-sog':'Stay','nav-lbl-luo':'Places','nav-lbl-man':'Eat','nav-lbl-mov':'Around',
     's-checkin-lbl':'Check-in','s-checkout-lbl':'Check-out','s-maps-lbl':'Navigate'
   }
